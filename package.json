@@ -1,0 +1,23 @@
+{
+  "name": "lcstest",
+  "version": "1.0.0",
+  "description": "js algorithm to compare texts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "start": "node ./scripts/serve.js",
+    "analyze": "node ./scripts/analyze.js"
+  },
+  "author": "Marc Schuba",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/diff": "^6.0.0",
+    "@types/node": "^22.8.6",
+    "esbuild": "^0.24.0",
+    "esbuild-plugin-tsc": "^0.4.0"
+  },
+  "dependencies": {
+    "diff": "^7.0.0"
+  }
+}
